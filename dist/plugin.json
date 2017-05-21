@@ -1,0 +1,31 @@
+{
+  "type": "panel",
+  "name": "HTML",
+  "id": "jether-html-panel",
+
+  "info": {
+    "description": "HTML panel for grafana",
+    "author": {
+      "name": "Jether Energy"
+    },
+    "keywords": ["html", "ajax", "panel"],
+    "logos": {
+      "small": "src/img/html_panel_logo.png",
+      "large": "src/img/html_panel_logo.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/jether-energy/grafana-html-panel"},
+      {"name": "MIT License",  "url": "https://github.com/jether-energy/grafana-html-panel/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      {"name": "Options", "path": "src/img/screenshot-ajax-options.png"}
+    ],
+    "version": "0.0.3",
+    "updated": "2017-05-21"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

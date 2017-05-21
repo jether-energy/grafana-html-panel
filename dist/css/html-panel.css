@@ -1,0 +1,10 @@
+.html-panel {
+  display: block;
+  margin:0px;
+  padding:0px;
+  overflow: auto;
+}
+
+.html-panel-body {
+	width:100%;
+}
