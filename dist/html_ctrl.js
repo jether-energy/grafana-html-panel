@@ -171,9 +171,9 @@ System.register(['app/plugins/sdk', 'jquery', 'lodash', 'app/core/utils/kbn', 'a
 
             if (self.panel.method === 'iframe') {
               var width = self.resolution - 50;
-              var height = self.height;
-              var src = url + '?' + $.param(params);
-              var html = '<iframe width=\'' + width + '\' height=\'' + height + '\' frameborder=\'0\' src="' + src + '"></iframe>';
+              var height = self.height - 10;
+              var src = encodeURI(url + '&' + $.param(params));
+              var html = '<iframe width=\'' + width + '\' height=\'' + height + '\' frameborder=\'0\' src=' + src + '></iframe>';
               self.updateContent(html);
             } else {
               this.$http({
